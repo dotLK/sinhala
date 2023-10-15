@@ -51,22 +51,22 @@ print(thun())
 
 ```
 
-Creating A Client
+Creating Your File 
 ```python
 import Sinhala
 
 #ප්‍රස්තාව පිරුළු තෝරමු
-print(theravili())
+print(Sinhala.theravili())
 
 #තේරවිලි තෝරමු
-print(theravili())
+print(Sinhala.theravili())
 
 #තුන් තේරවිලි තෝරමු
-print(thun_theravili())
+print(Sinhala.thun_theravili())
 
 #තුන් තේරවිලි තෝරමු
 
-print(thun())
+print(Sinhala.thun())
 
 ```
 
