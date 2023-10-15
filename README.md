@@ -1,4 +1,4 @@
-# ප්‍රස්තාව පිරුළු (Prasthawa Pirulu)
+# සිංහල ප්‍රස්තාව පිරුළු ,තේරවිලි ,තුන් තේරවිලි තෝරමු (Prasthawa Pirulu)
 
 Under construction! Not ready for use yet! Currently experimenting and planning!
 
@@ -9,31 +9,65 @@ Developed by @dotLK from sasindu (c) 2020
 Creating A Server
 
 ```python
-from vidstream import StreamingServer
+import random
+from Datas import *
 
-server = StreamingServer('127.0.0.1', 9999)
-server.start_server()
+#ප්‍රස්තාව පිරුළු තෝරමු
+def prastha_pirulu(): 
+    return random.choice(Prastha_Pirulu_List)
 
-# Other Code
+#ප්‍රස්තාව පිරුළු තෝරමු
+def pp():
+    return random.choice(Prastha_Pirulu_List)
 
-# When You Are Done
-server.stop_server()
+
+#තේරවිලි තෝරමු
+def theravili():
+    return random.choice(theravili_List)
+
+#තුන් තේරවිලි තෝරමු
+def thun_theravili():
+    return random.choice(thun_theravili_List)
+
+
+#තුන් තේරවිලි තෝරමු
+def thun():
+    return random.choice(thun_theravili_List)
+
+
+#ප්‍රස්තාව පිරුළු තෝරමු
+print(theravili())
+
+#තේරවිලි තෝරමු
+print(theravili())
+
+#තුන් තේරවිලි තෝරමු
+print(thun_theravili())
+
+#තුන් තේරවිලි තෝරමු
+
+print(thun())
+
+
 ```
 
 Creating A Client
 ```python
-from vidstream import CameraClient
-from vidstream import VideoClient
-from vidstream import ScreenShareClient
+import Sinhala
 
-# Choose One
-client1 = CameraClient('127.0.0.1', 9999)
-client2 = VideoClient('127.0.0.1', 9999, 'video.mp4')
-client3 = ScreenShareClient('127.0.0.1', 9999)
+#ප්‍රස්තාව පිරුළු තෝරමු
+print(theravili())
 
-client1.start_stream()
-client2.start_stream()
-client3.start_stream()
+#තේරවිලි තෝරමු
+print(theravili())
+
+#තුන් තේරවිලි තෝරමු
+print(thun_theravili())
+
+#තුන් තේරවිලි තෝරමු
+
+print(thun())
+
 ```
 
-Check out: https://www.youtube.com/c/NeuralNine
+Check out: https://www.youtube.com/@sasindu
