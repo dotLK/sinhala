@@ -18,7 +18,9 @@ Creating Your First File Test.py
 from sinhala import *
 
 #ප්‍රස්තාව පිරුළු තෝරමු
-print(theravili())
+print(prastha_pirulu())
+#Or
+print(pp())  
 
 #තේරවිලි තෝරමු
 print(theravili())
@@ -27,7 +29,6 @@ print(theravili())
 print(thun_theravili())
 
 #තුන් තේරවිලි තෝරමු
-
 print(thun())
 
 ```
